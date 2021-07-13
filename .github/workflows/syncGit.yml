@@ -34,8 +34,8 @@ jobs:
         uses: Yikun/hub-mirror-action@master
         if: env.dst_key
         with:
-          src: github/danwangshimoluo
+          src: github/lukesyy
           dst: gitee/unless110
-          static_list: "JdScripts"
+          static_list: "jd_yun"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
